@@ -1,0 +1,54 @@
+header {
+  padding-top: 5rem;
+  text-align: center;
+}
+
+header img {
+  width: 15rem;
+}
+
+main {
+  max-width: 36rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+section {
+  border: 2px solid #ded8c9;
+  border-radius: 0.625rem;
+  padding-top: 4px;
+}
+
+section > div {
+  padding: 2rem;
+  padding-top: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: #f5ede0;
+}
+
+section h2 {
+  letter-spacing: -0.47px;
+  color: #3c2f2f;
+  font-family: 'Georgia', serif;
+}
+
+section p {
+  letter-spacing: -0.18px;
+  color: #4a3d30;
+  font-family: 'Inter', sans-serif;
+}
+
+main section {
+  opacity: 0;
+  transform: translateY(2rem);
+  animation-name: appear;
+  animation-duration: 700ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes appear {
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

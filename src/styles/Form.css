@@ -1,0 +1,51 @@
+form {
+  display: flex;
+  gap: 0.85rem;
+  flex-wrap: wrap;
+  margin: 1.25rem 0;
+}
+
+input,
+select {
+  all: unset;
+  border: 1px solid #c7bb9cff;
+  border-radius: 0.5rem;
+  padding: 0.675rem;
+  font-size: 0.875rem;
+  line-height: 2.5;
+  background-color: #f1e0c5ff;
+  color: #3c2f2f;
+}
+
+input {
+  flex: 1;
+}
+
+button {
+  width: 35%;
+  border: 0;
+  background-color: #a36a3c;
+  color: #fcf7ef;
+  padding: 0.675rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.12px;
+
+  transition: all 0.3s;
+}
+
+button:hover {
+  cursor: pointer;
+  color: #e9dfceff;
+  transform: translateY(-1px);
+  box-shadow: 0 5px 1rem rgba(163, 106, 60, 0.5);
+}
+
+button:disabled {
+  transition: initial;
+  transform: initial;
+  box-shadow: initial;
+  cursor: not-allowed;
+  color: white;
+}

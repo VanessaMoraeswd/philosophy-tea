@@ -1,0 +1,108 @@
+.philosopher-info-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.philosopher-info-card {
+  background-color: #f5ede0;
+  color: #3c2f2f;
+  padding: 2rem;
+  border-radius: 0.75rem;
+  width: 90%;
+  max-width: 500px;
+  max-height: 85vh;
+  overflow-y: auto;
+
+  text-align: center;
+  position: relative;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid #ded8c9;
+}
+
+.philosopher-info-card::-webkit-scrollbar {
+  width: 8px;
+}
+
+.philosopher-info-card::-webkit-scrollbar-track {
+  background: #ede8e0;
+  border-radius: 10px;
+}
+
+.philosopher-info-card::-webkit-scrollbar-thumb {
+  background: #a36a3c;
+  border-radius: 10px;
+}
+
+.philosopher-info-card::-webkit-scrollbar-thumb:hover {
+  background: #8c7b6f;
+}
+
+.philosopher-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #9e704aff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.philosopher-name {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: #3c2f2f;
+}
+
+.philosopher-bio {
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: justify;
+  color: #4a3d30;
+  margin-bottom: 0;
+}
+
+.close-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: transparent;
+  background: none;
+  border: none;
+  color: #4a3d30;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0;
+  border-radius: 50%;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  transition: color 0.2s ease-in-out;
+}
+
+.close-button:hover {
+  color: #8a684fff;
+  background-color: transparent;
+  background-color: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.close-button:active {
+  background-color: transparent;
+  color: #8c7b6f;
+  outline: none;
+}
