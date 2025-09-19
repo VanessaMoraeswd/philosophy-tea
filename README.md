@@ -1,10 +1,10 @@
 Philosophy Tea 
 ![Philosophy Tea Screenshot](image.png)
 
-📚 About the Project
-Welcome to Philosophical Spot – your cozy corner for philosophical exploration! This interactive web application is designed for curious minds who want to delve into the thoughts of renowned philosophers. Simply paste your Gemini's API key, ask a question, select a philosopher, and get an answer formulated from their unique school of thought, as if they were philosophizing with you over a warm cup of tea. TPlease notice that the answers are fictional, based on philosophical studies, so they are not real. This app was built for entertainment purposes.
+📚 About the Project:
+Welcome to Philosophical Tea – your cozy corner for philosophical exploration! This interactive web application is designed for curious minds who want to delve into the thoughts of renowned philosophers. Simply paste your Gemini's API key, ask a question, select a philosopher, and get an answer formulated from their unique school of thought, as if they were philosophizing with you over a warm cup of tea. Please notice that the answers are fictional, based on philosophical studies, so they are not real. This app was built for entertainment purposes.
 
-This project was built to explore the capabilities of the Gemini API in creating dynamic and context-aware AI interactions, wrapped in a comfortable and inviting user interface.
+This project was designed to explore the capabilities of the Gemini API in creating dynamic and context-aware AI interactions, wrapped in a user interface that is both comfortable and inviting.
 
 ✨ Features
 Philosopher-Specific AI Responses: Get answers to your questions, crafted from the perspective of a chosen philosopher (e.g., Albert Camus, Aristotle, Seneca, etc.).
